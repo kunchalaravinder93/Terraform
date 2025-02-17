@@ -19,9 +19,3 @@ variable "key" {
   
 }
 
-variable "instance_count" {
-    description = "value"
-    type = number
-    default = 2
-  
-}
