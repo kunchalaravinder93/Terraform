@@ -69,14 +69,14 @@ resource "aws_security_group" "dev" {
 }
 
 
-resource "aws_instance" "bot" {
+# resource "aws_instance" "bot" {
   
-  ami = "ami-0cb91c7de36eed2cb"
-  instance_type = "t2.micro"
-  key_name = "info786key"
+#   ami = "ami-0cb91c7de36eed2cb"
+#   instance_type = "t2.micro"
+#   key_name = "info786key"
 
-  tags = {
-    Name = "tfserver"
-  }
+#   tags = {
+#     Name = "tfserver"
+#   }
 
-}
+# }
