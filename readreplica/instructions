@@ -1,0 +1,14 @@
+Do it one by one RDS first and Read replica next.
+
+First create RDS first main.tf / rds.tf
+terraform apply -auto-approve
+ wait until RDS is created
+Then write read-replica code and terraform apply again
+
+
+In read-repica code we have data source where it gives rds location we have given provider = aws. secondary 
+After creating RDS update provider to with alias = "secondary"
+
+
+if you want to create read replica in another region give one more provider with another region.
+Add provider block in read replica code. provider =  aws.read  [alias]
