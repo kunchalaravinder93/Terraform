@@ -1,0 +1,20 @@
+IN THIS WE ARE USING S3 TO STORE CODE I.E ZIP FILE AND GIVE TO LAMBDA AS INPUT CODE.
+
+-------------------------------------------------------------------------------
+LAMBDA IS SERVERLESS
+IT IS USED FOR SHORT EXCECUTIONS.  [ephemeral -short-lived]
+
+We need lambda_function.py  with same name and we need to create a zip file manually.
+As lambda take zip file only 
+the other ways are code from S3 and we paste code directly in Lambda function.
+
+WE NEED TO CREATE EVENT [LIKE TEST] TO TEST THE CODE MANUALLY OR BY CODE [ MOSTLY I DID BY MANUALLY]
+
+We also need a IAM role for LAMBDA function. [ for the services it will be going to use]
+
+MAKE SURE IN LAMBDA FUNCTION AND IN GENERAL SEETINGS IN CONFIG THE EXECUTION TIME IS CHANGE TO 15MIN.
+
+IF YOU CHANGE THE FILE NAME MAKE SURE YOU CHANGE IT.
+
+
+------------------------------------------------------------------------------
