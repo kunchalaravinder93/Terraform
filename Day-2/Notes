@@ -1,0 +1,4 @@
+In this we learnt about variables
+Instead of directly giving values in main.tf we write varibles.
+we can use different values for same code like dev.tfavrs test.tfvars  
+By default terraform will take terraform.tfvars
