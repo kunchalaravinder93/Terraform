@@ -1,3 +1,13 @@
+BACKEND S3
+============
 Backend is required to save statefile .
 To create a backend we need to create S3 bucket first and create backend.tf 
 Or you can create S3 from code and write backend after creating it.
+
+DYNAMO DB TABLE
+=============
+DYNAMO DB table used to lock commands when two developers are working together.
+To create a backend with dynamo DB we need to create S3 bucket along with Dynamo db table first and create backend.tf
+when two users give terraform apply at a time dynamo db helps to lock the execution who ever gives the command first. and gives error for other person
+SO other person can apply after excution of first user.
+
