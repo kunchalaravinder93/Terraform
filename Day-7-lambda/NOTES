@@ -1,6 +1,13 @@
+LAMBDA IS SERVERLESS
+IT IS USED FOR SHORT EXCECUTIONS.
+
 We need lambda_function.py  with same name and we need to create a zip file manually.
 As lambda take zip file only 
 the other ways are code from S3 and we paste code directly in Lambda function.
 
 We also need a IAM role for LAMBDA function. [ for the services it will be going to use]
+
+MAKE SURE IN LAMBDA FUNCTION AND IN GENERAL SEETINGS IN CONFIG THE EXECUTION TIME IS CHANGE TO 15MIN.
+
+IF YOU CHANGE THE FILE NAME MAKE SURE YOU CHANGE IT.
 
