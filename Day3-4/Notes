@@ -1,0 +1,3 @@
+Backend is required to save statefile .
+To create a backend we need to create S3 bucket first and create backend.tf 
+Or you can create S3 from code and write backend after creating it.
