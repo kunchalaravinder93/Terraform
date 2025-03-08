@@ -4,3 +4,10 @@ BEFORE EXECUTING WE NEED TO CREATE A AWS PROFILE WHICH MEANS
 ALREADY WE HAVE OUR AWS ACCOUNT ACCESS KEY AND SECRETE KEY [ AWS CONFIGURE]
 WE NEED TO ADD ANOTHER ACCOUNT PROFILE TO IT By aws configure --profile dev
 dev profile will be added and we use this to create infra on other account.
+
+
+we can use this by following way
+provider "aws" {
+  region  = "us-east-2"
+  profile = "dev"
+}
