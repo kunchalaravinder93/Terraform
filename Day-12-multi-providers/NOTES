@@ -1,5 +1,14 @@
 IF YOU WANT TO CREATE A RESOUCES IN DIFFERENT REGIONS WE CAN YOU ALIAS IN PROVDERS AND ADD PROVIDER IN RESOURCES BLOCK.
 
-USE CASE
-
+---USE CASE----------
+provider "aws" {
+    region = "ap-south-1"
+    alias = "provider2"
+  
+}
+resource "aws_s3_bucket" "provider-1" {
+    bucket = "fghjrtyucvhcv"
+    provider = aws.provider2   # s3 bucket will create into "ap-south-1"
+  
+}
 
