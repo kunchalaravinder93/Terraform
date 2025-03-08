@@ -1,5 +1,5 @@
 LAMBDA IS SERVERLESS
-IT IS USED FOR SHORT EXCECUTIONS.
+IT IS USED FOR SHORT EXCECUTIONS.  [ephemeral -short-lived]
 
 We need lambda_function.py  with same name and we need to create a zip file manually.
 As lambda take zip file only 
