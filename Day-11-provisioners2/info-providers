@@ -5,6 +5,6 @@ Remote [execution] they can be executed in remote [ ec2 instance]
 files -  this can be used to copy files from local to remote [ec2]
 
 
-This can be given in two was 
+This can be given in two ways 
 1. within the resource   - this wont tracked by terrafoem statefile
 2. another is by creating null resource - this will be tracked by statefile
